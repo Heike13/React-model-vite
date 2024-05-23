@@ -12,15 +12,12 @@ Bienvenue dans ce modèle/template de projet React !
 
 ## Objectif
 
-Seul ce modèle ne sert pas à grand chose :
-l'idée est de se _baser sur_ le modèle et de le faire tourner dans un autre projet.
-
 Il suffit donc de le cloner dans le même dossier qui abritera vos projets.
 
 On peut se baser sur lui pour :
 
 - démarrer un **nouveau projet** avec un environnement fiable et configuré
-- travailler sur un **challenge** avec des dossiers, des fichiers pré-existants
+- travailler sur un **repo** avec des dossiers, des fichiers pré-existants
 
 ## Utilisation
 
