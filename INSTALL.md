@@ -36,8 +36,8 @@ Pour ce faire :
 - lancer l'assistant pour récupérer le dépôt distant :
 
       ```sh
-      cd dossier/avec/mes_challenges
-      # Exemple : ../../../Spe-React
+      cd dossier/avec/mon_projet
+      # Exemple : ../../../my-app
 
       # lancer le script
       ./React-modele-vite/bin/install.sh
@@ -47,23 +47,23 @@ Pour ce faire :
 
       # renseigner soit :
       #   - le nom de votre nouveau projet (ex : my-app)
-      #   - soit l'adresse SSH d'un dépôt Git (ex : git@github.com:O-clock-MA_PROMO/NOM_CHALLENGE.git)
+      #   - soit l'adresse SSH d'un dépôt Git (ex : lien vers un repo GitHub)
       ```
 
 - ou copier manuellement les dossiers et fichiers :
 
       ```sh
-      # Exemple : après avoir cloné un challenge dans le dossier mon-challenge/
+      # Exemple : après avoir cloné un repo dans le dossier qui se situe là ou est présent cette boiler plate /
 
       # direction le dossier du challenge
-      cd mon-challenge
+      cd le-dossier
 
       # copie des fichiers cachés et non-cachés présents à la racine du modèle
-      # note : des alertes sont affichées à propos de dossiers ignorés, c'est normal
+      # note : des alertes sont affichées à propos des dossiers ignorés, c'est normal
       cp -n ../React-modele-vite/{.*,*} .
 
       # copie (récursive) des dossiers src/, config/ et public/
-      # note : des alertes peuvent être affichées à propos de fichiers ignorés, c'est normal
+      # note : des alertes peuvent être affichées à propos des fichiers ignorés, c'est normal
       cp -rn ../React-modele-vite/{src,public} .
 
       # installation des dépendances listées dans le package.json
@@ -104,7 +104,7 @@ dans un dossier `dist/` avec la commande `pnpm build`.
 
 ```sh
 # dans le dossier du projet
-cd mon-challenge
+cd le-dossier
 
 # build de production : les fichiers sont rassemblés *et optimisés*
 pnpm build
